@@ -1,0 +1,39 @@
+<h1> Welcom To My Personal Site</h1>
+<nav>
+  <ul>
+    <li>
+
+      <a routerLink="/">Home</a>
+
+    </li>
+    <li>
+      About
+    <nav>
+    <ul>
+        <li>
+            <a routerLink="about/early-life">Early Life</a>
+        </li>
+        <li>
+            <a routerLink="about/career">Career</a>
+        </li>
+    </ul>
+</nav>
+
+    </li>
+    <li>
+
+      <a routerLink="/links">Links</a>
+
+    </li>
+    <li>
+      Resume
+      <ul>
+        <li *ngFor="let job of jobs">
+        
+          <a routerLink="/resume/{{job.id}}">{{job.title}}</a>          
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>

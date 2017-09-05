@@ -1,0 +1,50 @@
+body {
+	background: yellow;
+}
+
+#livingRoom {
+	background: brown;
+	position: relative;
+	width: 800px;
+	height: 800px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	color: white;
+}
+
+#box1 {
+	 background-color: red;
+    height: 200px;
+    width: 100px;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#box2{
+	clear: right;
+	background-color: blue;
+    height: 200px;
+    width: 100px;
+    
+}
+
+#box3 {
+	 background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#box4 {
+	background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
